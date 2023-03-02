@@ -13,5 +13,13 @@ module.exports = {
     deployer2: 1,
     deployer3: 2,
     deployer4: 3
+  },
+  networks: {
+    hardhat: {
+      forking: {
+        url: "https://eth-mainnet.alchemyapi.io/v2/CR0jZfJoRngGFWeFojtEY23kLF9YijMA",
+        blockNumber: 13414215
+      }
+    }
   }
 };

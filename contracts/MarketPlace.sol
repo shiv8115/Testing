@@ -150,10 +150,7 @@ contract market is ReentrancyGuard{
     function getProceeds(address seller) external view returns (uint256) {
         return s_proceeds[seller];
     }
-/*  */// Return market balance
-    function MarketBalance() external view returns(uint){
-        return Owner.balance;
-    }
+
 /**
 
 @dev Returns the details of a specific NFT listing.
