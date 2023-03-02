@@ -4,8 +4,9 @@ require("@nomicfoundation/hardhat-toolbox");
 require('hardhat-deploy');
 require("@nomicfoundation/hardhat-chai-matchers");
 require('solidity-coverage');
+//require('dotenv').config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
+
 module.exports = {
   solidity: "0.8.17",
   namedAccounts: {
